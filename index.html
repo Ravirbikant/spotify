@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - For Miss Me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="animation">
+      <img src="bg.gif" alt="" id="gif">
+    </div>
+    <div class="heading">
+      <img src="logo.png" alt="">
+      <h1>Spotify Lite - For Miss me ke garib log</h1>
+    </div>
+
+    <div class="songs-container" >
+      <div class="song-list">
+        <div class="song-choice">
+          <i id="1" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>Deva Deva - Brahmastra</p>
+        </div>
+        <div class="song-choice">
+          <i id="2" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>Tum se hi - Jab we met</p>
+        </div>
+        <div class="song-choice">
+          <i id="3" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>All izz Well - 3 idiots</p>
+        </div>
+        <div class="song-choice">
+          <i id="4" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>Deva Shree Ganesha - Agneepath</p>
+        </div>
+        <div class="song-choice">
+          <i id="5" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>Dhoom Again - Dhoom 2</p>
+        </div class="">
+        <div class="song-choice">
+          <i id="6" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>Natu Natu - RRR</p>
+        </div>
+        <div class="song-choice">
+          <i id="7" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>Pyar hota kai bar hai</p>
+        </div>
+        <div class="song-choice">
+          <i id="8" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>Chammak Challo - Ra.One</p>
+        </div>
+        <div class="song-choice">
+          <i id="9" class="fa-solid song-items fa-2x fa-play"></i>
+          <p>Bijlee Bijlee</p>
+        </div>
+      </div>
+
+      <div id="container"></div>
+    </div>
+
+    
+    
+    <div class="footer">
+      <div class="showProgress">
+        <p>0:00</p>
+        <input type="range" min="0" max="100" value="0" id="progressBar" />
+        <p><span id="duration"></span></p>
+      </div>
+      <div class="control-buttons">
+        <i id="restart" class="fa-solid fa-2x fa-rotate"></i>
+        <i id="backward" class="fa-solid fa-2x fa-backward"></i>
+        <button id="btn">
+          <i id="masterBtn" class="fa-solid fa-3x fa-play"></i>
+        </button>
+        <i id="forward" class="fa-solid fa-2x fa-forward"></i>
+        <p class="hide">hi</p>
+      </div>
+      <div class="song-name">
+        <h2><span id="name"></span></h2> 
+      </div>
+       
+    </div>
+    
+    <h2> <span id="name"></span></h2>
+
+    <!-- Linking JS  -->
+    <script
+      src="https://kit.fontawesome.com/6157e66a9d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
